@@ -19,7 +19,7 @@ namespace SLC_AS_TVSTestScript_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello World 123");
-			var order = OrderFactory.CreateOrder("Bacon Burger");
+			var order = OrderFactory.CreateOrder("JansChange Bacon Burger");
 			order.Dispatch("Thomas Verschuere");
         }
 	}
